@@ -4,7 +4,7 @@ import numpy as np
 model = tf.keras.models.load_model("crack_detector.h5")
 
 # Use HTTP instead of HTTPS
-url = "http://10.89.40.51:4747/video"
+url = "<place-url-video>"
 cap = cv2.VideoCapture(url)
 
 while True:
