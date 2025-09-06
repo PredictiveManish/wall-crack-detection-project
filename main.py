@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(url)
 while True:
     ret, frame = cap.read()
     if not ret:
-        print("❌ Failed to grab frame. Check IP/Port and make sure phone/laptop are on same WiFi.")
+        print("Failed to grab frame. Check IP/Port and make sure phone/laptop are on same WiFi.")
         break
     
     img = cv2.resize(frame, (224, 224))
