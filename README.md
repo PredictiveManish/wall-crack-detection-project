@@ -16,7 +16,8 @@ The project is built using Tensorflow, Keras, and OpenCV.
 |||-Positive/
 |||-Negative/
 |--detection_log.csv # Optional, it will help you to store predictions
-|--README.md 
+|--README.md
+|-requirements.txt
 ```
 Requirements
 
