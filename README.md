@@ -28,6 +28,6 @@ Requirements
 ```
 Install Dependencies using pip:
 ```
-pip install tensorflow opencv-python numpy
+pip install -r requirements.txt
 ```
 For better experience make a virtual environment.
